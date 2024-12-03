@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
+.menu a {
+    text-decoration: none;
+    color: #ED32F0;
+    margin: 5px;
+    padding: 20px 10px;
+    
+}
+p, li{
+    color: #000059;
+}
+/*Topo da página*/
+.secao-topo {
+    border: 1px solid #000059;
+    background-color: #000059;
+}
+
+.secao-largura-limitada{
+    width: 900px;
+    margin: 0 auto;
+    
+}
+
+h1, h2, h3 {
+    margin: 0;
+    color: #ED32F0;
+}
+.secao-topo p {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ED32F0;
+    text-align: right;
+    
+}
+/* Inicial com banner*/
+.secao-background-capa {
+    min-height: 500px;
+    background-image: url('../img/capa.jpg');
+    background-size: cover;
+}
+
+.secao-background-conteudo {
+    text-align: left;
+    padding: 50px 20px;
+    color: #ED32F0;
+}
+
+/*seção conteudo*/
+
+.secao-conteudo {
+    padding: 50px 20px;
+}
+
+.img-conteudo{ 
+    width: 250px;
+    height: 180px;
+}
+.secao-conteudo span {
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+/*Secao com imagem de fundo e texo (As divisões de conteúdos)*/
+
+.secao-background-divisao {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('../img/bk.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secao-background-divisao h3  {
+    font-size: 30px;
+    background-color: #160095;
+    color: #ED32F0;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
