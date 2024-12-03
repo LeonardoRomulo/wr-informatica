@@ -13,12 +13,11 @@ p, li{
 }
 /*Topo da página*/
 .secao-topo {
-    
     border: 1px solid #000059;
     background-color: #000059;
     position: fixed;
-    top: 100%;
-    right: 0;
+    top: 0;
+    width: 100%;
 }
 
 .secao-largura-limitada{
@@ -44,6 +43,7 @@ h1, h2, h3 {
     min-height: 500px;
     background-image: url('../img/capa.jpg');
     background-size: cover;
+    margin-top: 70px;
 }
 
 .secao-background-conteudo {
