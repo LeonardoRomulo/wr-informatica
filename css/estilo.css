@@ -16,6 +16,9 @@ p, li{
 .secao-topo {
     border: 1px solid #000059;
     background-color: #000059;
+    position: fixed;
+    top: 50%;
+    right: 0;
 }
 
 .secao-largura-limitada{
