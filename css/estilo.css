@@ -7,13 +7,13 @@ body {
     color: #ED32F0;
     margin: 5px;
     padding: 20px 10px;
-    
 }
 p, li{
     color: #000059;
 }
 /*Topo da página*/
 .secao-topo {
+    
     border: 1px solid #000059;
     background-color: #000059;
 }
